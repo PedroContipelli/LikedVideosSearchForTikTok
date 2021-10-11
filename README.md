@@ -4,7 +4,7 @@
 We are users of the popular mobile app, TikTok. One frustration we continued running into time and time again with using TikTok is the fact that there was no easy way to search through your liked videos in order to show a TikTok you once saw, to a friend. The only way to search through liked videos in the official app is to scroll down through the list of every single video you have ever liked in chronological order. This is time-consuming, tedious, and inefficient.
 
 ## What it does
-Our app allows a user to enter a username and a search query, and returns a list of TikToks in that user's most recent (1000) liked videos that match their search query.
+Our app allows a user to enter a username and a search query, and returns a list of TikToks in that user's most recent (1000) liked videos that match their search query. Note: your user must have their privacy settings for liked videos set to "everyone"
 
 ## How we built it
 We found and used the Unofficial TikTok API In Python, which allowed us to find a list of any given user's most recent (1000) liked videos, considering that they had their privacy settings on public. We then looped through the list, searching for any TikTok containing the search query in either the description, author's id, author's name, sound title, or sound author and returned a link to every match.
