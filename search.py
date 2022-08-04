@@ -6,7 +6,8 @@ print('Searching in @' + username + '\'s liked videos...')
 
 num_videos = 1000
 
-liked_vids = api.user_liked_by_username(username, count=num_videos)
+user = api.user(username=username)
+liked_vids = user.liked(count=num_videos)
 
 search_query = input('Search: ').lower()
 
