@@ -1,5 +1,7 @@
 # Liked Videos Search for TikTok
 
+Note: This is an old project that has since been made relatively obsolete since TikTok now allows you to filter for liked videos in your search from within the app.
+
 ## Inspiration
 We are users of the popular mobile app, TikTok. One frustration we continued running into time and time again with using TikTok is the fact that there was no easy way to search through your liked videos in order to show a TikTok you once saw, to a friend. The only way to search through liked videos in the official app is to scroll down through the list of every single video you have ever liked in chronological order. This is time-consuming, tedious, and inefficient.
 
